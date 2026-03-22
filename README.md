@@ -13,7 +13,8 @@ Le programme est structuré en modules pour séparer la logique de bas niveau du
  - Effets spéciaux : Inversion, mélange d'images (mix), effet de "fonte" (melt) et séparation de canaux.
 
 
-## Défis Techniques & ApprentissagesCe projet en C a nécessité une gestion rigoureuse des ressources système :
+## Défis Techniques & Apprentissages
+Ce projet en C a nécessité une gestion rigoureuse des ressources système :
 - E/S Binaires : Utilisation de fseek et du mode rb/wb pour manipuler les fichiers binaires tout en ignorant les commentaires dans les headers.
 - Gestion Mémoire : Implémentation de nettoyages spécifiques (notamment pour les tableaux de LUT) afin d'éviter les fuites mémoires.
 - Précision des Types : Utilisation du type unsigned char pour garantir des valeurs de pixels entre $0$ et $255$ et éviter les bruits visuels.

@@ -1,4 +1,4 @@
-# Image Processing Engine (PGM & PPM)Projet de Programmation Impérative en C
+# Image Processing Engine (PGM & PPM) - Projet de Programmation Impérative en C
 
 ## Présentation
 L'objectif de ce projet est de créer une structure de données permettant la manipulation d'images aux formats PGM (niveaux de gris) et PPM (couleurs). Le moteur permet d'effectuer des opérations allant de la simple lecture/écriture binaire à des transformations algorithmiques avancées.

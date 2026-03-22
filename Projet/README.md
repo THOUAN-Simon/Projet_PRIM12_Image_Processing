@@ -1,4 +1,4 @@
---- Notice d'utilisation de l'exécutable main ---
+# Notice d'utilisation de l'exécutable main ---
 
 
 Remarque : les images Lenna_gray.pgm, Lenna_color.ppm, Lenna_BW.pgm et Lenna_BW.ppm sont fournis dans le dossier /Projet/Images
@@ -15,16 +15,16 @@ Remarque : les images Lenna_gray.pgm, Lenna_color.ppm, Lenna_BW.pgm et Lenna_BW.
 
 	- Toute commande de type "./main filename_Lenna_gray.pgm filename_mask.pgm operation" où "filename" est le chemin absolu vers l'image 
 	nommée "Lenna_gray.pgm" et "filename_mask" est le chemin absolu vers l'image utilisée comme masque aura pour effet d'appliquer l'opération 	"operation" sur l'image "Lenna_gray.pgm" à l'aide du masque et de créer le fichier résultat "Lenna_gray_operation.pgm" dans le même 	répertoire que là où est stocké l'image "Lenna_gray.pgm".
-	**Pour cette étape, on utilisera l'image Lenna_BW.pgm comme masque
+	**Pour cette étape, on utilisera l'image Lenna_BW.pgm comme masque**
 
 	- Toute commande de type "./main filename_Lenna_color.ppm filename_mask.ppm operation" où "filename" est le chemin absolu vers l'image 	nommée "Lenna_color.ppm" et "filename_mask" est le chemin absolu vers l'image utilisée comme masque aura pour effet d'appliquer 	l'opération "operation" sur l'image "Lenna_color.ppm" à l'aide du masque et de créer le fichier résultat "Lenna_color_operation.ppm" 	dans le même répertoire que là où est stocké l'image "Lenna_color.ppm".
-	**Pour cette étape, on utilisera l'image Lenna_BW.ppm comme masque
+	**Pour cette étape, on utilisera l'image Lenna_BW.ppm comme masque**
 
 	- Toute commande de type "./main filename_Lenna_gray.pgm filename_mask.pgm filename_inv.pgm operation" où "filename" est le chemin absolu 	vers l'image nommée "Lenna_gray.pgm", "filename_mask" est le chemin absolu vers l'image utilisée comme masque et "filename_inv" est le 	chemin absolu vers l'image inversée de Lenna_gray.pgm (qu'on aura pris soin de calculer précédemment), aura pour effet d'appliquer 	l'opération "operation" sur l'image "Lenna_gray.pgm" à l'aide du masque et de l'image inversée et de créer le fichier résultat 	"Lenna_gray_operation.pgm" dans le même répertoire que là où est stocké l'image "Lenna_gray.pgm".
-	**Pour cette étape, on utilisera l'image Lenna_BW.pgm comme masque et Lenna_inverse.pgm (à calculer à l'aide du programme) comme image 	inverse
+	**Pour cette étape, on utilisera l'image Lenna_BW.pgm comme masque et Lenna_inverse.pgm (à calculer à l'aide du programme) comme image 	inverse**
 
 	- Toute commande de type "./main filename_Lenna_color.ppm filename_mask.ppm filename_inv.ppm operation" où "filename" est le chemin absolu 	vers l'image nommée "Lenna_color.ppm", "filename_mask" est le chemin absolu vers l'image utilisée comme masque et "filename_inv" est le 	chemin absolu vers l'image inversée de Lenna_color.ppm (qu'on aura pris soin de calculer précédemment), aura pour effet d'appliquer 	l'opération "operation" sur l'image "Lenna_color.ppm" à l'aide du masque et de l'image inversée et de créer le fichier résultat 	"Lenna_color_operation.ppm" dans le même répertoire que là où est stocké l'image "Lenna_color.ppm".
-	**Pour cette étape, on utilisera l'image Lenna_BW.ppm comme masque et Lenna_inverse.ppm (à calculer à l'aide du programme) comme image 	inverse
+	**Pour cette étape, on utilisera l'image Lenna_BW.ppm comme masque et Lenna_inverse.ppm (à calculer à l'aide du programme) comme image 	inverse**
 
 	
 
